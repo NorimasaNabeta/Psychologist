@@ -17,6 +17,7 @@
 		F2554FBF15AF046B00920BA3 /* PsychologistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2554FBE15AF046B00920BA3 /* PsychologistViewController.m */; };
 		F2554FC915AF04DC00920BA3 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2554FC615AF04DC00920BA3 /* FaceView.m */; };
 		F2554FCA15AF04DC00920BA3 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2554FC815AF04DC00920BA3 /* HappinessViewController.m */; };
+		F2DD186C15AF1143009DE868 /* DrPillWebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DD186B15AF1143009DE868 /* DrPillWebsiteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		F2554FC615AF04DC00920BA3 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 		F2554FC715AF04DC00920BA3 /* HappinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
 		F2554FC815AF04DC00920BA3 /* HappinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
+		F2DD186A15AF1143009DE868 /* DrPillWebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrPillWebsiteViewController.h; sourceTree = "<group>"; };
+		F2DD186B15AF1143009DE868 /* DrPillWebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrPillWebsiteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				F2554FC715AF04DC00920BA3 /* HappinessViewController.h */,
 				F2554FC815AF04DC00920BA3 /* HappinessViewController.m */,
 				F2554FB815AF046B00920BA3 /* PsychologistAppDelegate.m */,
+				F2DD186A15AF1143009DE868 /* DrPillWebsiteViewController.h */,
+				F2DD186B15AF1143009DE868 /* DrPillWebsiteViewController.m */,
 				F2554FBA15AF046B00920BA3 /* MainStoryboard.storyboard */,
 				F2554FBD15AF046B00920BA3 /* PsychologistViewController.h */,
 				F2554FBE15AF046B00920BA3 /* PsychologistViewController.m */,
@@ -177,6 +182,7 @@
 				F2554FBF15AF046B00920BA3 /* PsychologistViewController.m in Sources */,
 				F2554FC915AF04DC00920BA3 /* FaceView.m in Sources */,
 				F2554FCA15AF04DC00920BA3 /* HappinessViewController.m in Sources */,
+				F2DD186C15AF1143009DE868 /* DrPillWebsiteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +294,7 @@
 				F2554FC415AF046B00920BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
