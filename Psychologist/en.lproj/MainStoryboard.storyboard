@@ -287,6 +287,31 @@
             </objects>
             <point key="canvasLocation" x="881" y="-1027"/>
         </scene>
+        <!--Dr Pill Website View Controller-->
+        <scene sceneID="H0S-st-pTD">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1v7-RL-UU2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="kr4-sK-maO" customClass="DrPillWebsiteViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fd8-jP-OmM">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="gZn-N7-Uy9">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pos-Wn-L8Z"/>
+                    <connections>
+                        <outlet property="webView" destination="gZn-N7-Uy9" id="S83-4D-qgG"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1455" y="-628"/>
+        </scene>
         <!--Happiness View Controller-->
         <scene sceneID="Ckn-Zh-gEP">
             <objects>
@@ -307,6 +332,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="kr4-sK-maO" kind="push" id="a4O-p8-bA2"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" id="UZf-9o-Sef" customClass="FaceView">
                                 <rect key="frame" x="0.0" y="0.0" width="325" height="361"/>
@@ -326,6 +354,12 @@
         </scene>
     </scenes>
     <classes>
+        <class className="DrPillWebsiteViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DrPillWebsiteViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
         <class className="FaceView" superclassName="UIView">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FaceView.h"/>
             <relationships>

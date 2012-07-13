@@ -20,6 +20,8 @@
 {
     [super viewWillAppear:animated];
     [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://cs193p.stanford.edu"]]];
+    // is requied to redraw?
+    
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
