@@ -16,10 +16,23 @@
 @implementation PsychologistViewController
 @synthesize diagnosis=_diagnosis;
 
+- (HappinessViewController *)splitViewHappinessViewController
+{
+    id hvc = [self.splitViewController.viewControllers lastObject];
+    if (![hvc isKindOfClass:[HappinessViewController class]]) {
+        hvc = nil;
+    }
+    return hvc;
+}
+
 - (void)setAndShowDiagnosis:(int)diagnosis
 {
     self.diagnosis = diagnosis;
-    [self performSegueWithIdentifier:@"ShowDiagnosis" sender:self];
+    if ([self splitViewHappinessViewController]) {                      // if in split view
+        [self splitViewHappinessViewController].happiness = diagnosis;  // just set happiness in detail
+    } else {
+        [self performSegueWithIdentifier:@"ShowDiagnosis" sender:self]; // else segue using ShowDiagnosis
+    }
 }
 
 - (IBAction)flying {
