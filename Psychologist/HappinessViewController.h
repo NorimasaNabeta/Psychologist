@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FaceView.h"
 #import "SplitViewBarButtonItemPresenter.h"
 
 @interface HappinessViewController : UIViewController <SplitViewBarButtonItemPresenter>

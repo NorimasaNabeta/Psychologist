@@ -20,7 +20,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="er5-aD-lDZ">
+                            <toolbar opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="er5-aD-lDZ">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <items/>
@@ -70,11 +70,11 @@
             </objects>
             <point key="canvasLocation" x="-576" y="-234"/>
         </scene>
-        <!--Rotatable View Controller - Pschologist-->
+        <!--Rotatable View Controller - Psychologist-->
         <scene sceneID="tgo-2Q-Tu6">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hKH-8G-i4c" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="hDC-3G-kyS" customClass="RotatableViewController" sceneMemberID="viewController">
+                <viewController title="Psychologist" id="hDC-3G-kyS" customClass="RotatableViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iR7-FC-Pop">
                         <rect key="frame" x="0.0" y="64" width="320" height="788"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
