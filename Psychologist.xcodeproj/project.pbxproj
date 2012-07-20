@@ -43,6 +43,7 @@
 		F29BDDC115B55ECD00A7BF07 /* RotatableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatableViewController.h; sourceTree = "<group>"; };
 		F29BDDC215B55ECD00A7BF07 /* RotatableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatableViewController.m; sourceTree = "<group>"; };
 		F29BDDC515B5605E00A7BF07 /* ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ipad.storyboard; path = ../ipad.storyboard; sourceTree = "<group>"; };
+		F2D440DC15B8E827007F3D5E /* SplitViewBarButtonItemPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewBarButtonItemPresenter.h; sourceTree = "<group>"; };
 		F2DD186A15AF1143009DE868 /* DrPillWebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrPillWebsiteViewController.h; sourceTree = "<group>"; };
 		F2DD186B15AF1143009DE868 /* DrPillWebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrPillWebsiteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +94,7 @@
 			children = (
 				F2554FB715AF046B00920BA3 /* PsychologistAppDelegate.h */,
 				F29BDDC515B5605E00A7BF07 /* ipad.storyboard */,
+				F2D440DC15B8E827007F3D5E /* SplitViewBarButtonItemPresenter.h */,
 				F2554FC515AF04DC00920BA3 /* FaceView.h */,
 				F2554FC615AF04DC00920BA3 /* FaceView.m */,
 				F2554FC715AF04DC00920BA3 /* HappinessViewController.h */,

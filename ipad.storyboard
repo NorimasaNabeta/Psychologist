@@ -39,6 +39,10 @@
                     <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="AWB-aW-eaU">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="oZZ-cS-sua">
+                        <rect key="frame" x="0.0" y="808" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="hDC-3G-kyS" kind="relationship" relationship="rootViewController" id="u1n-LA-8WX"/>
                     </connections>
@@ -60,7 +64,7 @@
             </objects>
             <point key="canvasLocation" x="-576" y="-234"/>
         </scene>
-        <!--Rotatable View Controller-->
+        <!--Rotatable View Controller - Pschologist-->
         <scene sceneID="tgo-2Q-Tu6">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hKH-8G-i4c" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -102,7 +106,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="sbM-pc-b5b"/>
+                    <navigationItem key="navigationItem" title="Pschologist" id="sbM-pc-b5b"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
                 </viewController>
             </objects>
