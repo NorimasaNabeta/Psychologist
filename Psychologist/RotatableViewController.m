@@ -6,6 +6,17 @@
 //  Copyright (c) 2012年 Norimasa Nabeta. All rights reserved.
 //
 
+// @1443 Copying Psychologist code doesn't result in popover in portrait
+// This behavior for SplitViewController was changed between 5.0 when the lecture was done and 5.1.
+// You can confirm this by installing and running the app in the 5.0 emulator.
+// No built in way to change it.
+//
+// * Xcode>>Preference>>Downloads>>Components
+// --> iOS5.0 Simulator (553.7MB)
+// * TARGET>>Summary>>iOS Application Target
+// --> Deployment Target: 5.0
+//
+
 #import "RotatableViewController.h"
 #import "SplitViewBarButtonItemPresenter.h"
 
